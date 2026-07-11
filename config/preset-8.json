@@ -1,0 +1,32 @@
+{
+  "name": "plasma-artery-7229",
+  "version": "1.0.8",
+  "description": "An autonomous file converter scaffolded by PushForge Engine.",
+  "modules": [
+    {
+      "name": "mod-0",
+      "desc": "file converter module 0"
+    },
+    {
+      "name": "mod-1",
+      "desc": "file converter module 1"
+    },
+    {
+      "name": "mod-2",
+      "desc": "file converter module 2"
+    },
+    {
+      "name": "mod-3",
+      "desc": "file converter module 3"
+    }
+  ],
+  "runtime": {
+    "node": ">=20",
+    "python": ">=3.11"
+  },
+  "scripts": {
+    "dev": "node src/app.js",
+    "build": "tsc -p .",
+    "deploy": "bash scripts/setup.sh"
+  }
+}
